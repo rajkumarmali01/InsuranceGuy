@@ -41,10 +41,6 @@ app.use('/uploads', express.static('uploads'));
 
 // Root route is handled conditionally below
 
-// Error Handling
-app.use(notFound);
-app.use(errorHandler);
-
 // Serve frontend in production
 if (process.env.NODE_ENV === 'production') {
     const path = require('path');
@@ -58,6 +54,10 @@ if (process.env.NODE_ENV === 'production') {
         res.send('Insurance Guy API is running');
     });
 }
+
+// Error Handling
+app.use(notFound);
+app.use(errorHandler);
 
 // Connect to DB and Start Server
 const startServer = async () => {
