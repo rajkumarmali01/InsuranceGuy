@@ -100,7 +100,7 @@ const ClaimSupport = () => {
                     <div className="bg-gray-50 p-6 border-t border-gray-100 grid grid-cols-1 md:grid-cols-2 gap-4">
                         <div className="flex items-center justify-center text-gray-600">
                             <Phone className="h-5 w-5 mr-2" />
-                            <span>Call: 98765-43210</span>
+                            <span>Call: 8153026777</span>
                         </div>
                         <div className="flex items-center justify-center text-gray-600">
                             <Mail className="h-5 w-5 mr-2" />
