@@ -39,9 +39,7 @@ app.use('/api/policies', policyRoutes);
 app.use('/api/admin', adminRoutes);
 app.use('/uploads', express.static('uploads'));
 
-app.get('/', (req, res) => {
-    res.send('Insurance Guy API is running');
-});
+// Root route is handled conditionally below
 
 // Error Handling
 app.use(notFound);
