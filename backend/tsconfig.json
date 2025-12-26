@@ -13,6 +13,8 @@
         "src/**/*"
     ],
     "exclude": [
-        "node_modules"
+        "node_modules",
+        "src/test-api-live.ts",
+        "src/verify-full-stack.ts"
     ]
 }
