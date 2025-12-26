@@ -36,7 +36,7 @@ const Navbar = () => {
                         <div className="flex items-center space-x-4">
                             <a href="tel:+919876543210" className="flex items-center text-gray-600 hover:text-blue-600">
                                 <Phone className="h-5 w-5 mr-1" />
-                                <span className="text-sm font-semibold">98765-43210</span>
+                                <span className="text-sm font-semibold">81530 26777</span>
                             </a>
 
                             {user ? (
